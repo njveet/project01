@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Me - Your Name</title>
+    <!-- Include necessary CSS and Bootstrap -->
+</head>
+<body>
+    <!-- Include the navigation bar -->
+    <%- include('partials/header') %>
+
+    <!-- Your content for the Contact Me page -->
+    <h1>Contact Me</h1>
+    <form action="/submit-contact" method="post">
+        <input type="text" name="firstName" placeholder="First Name" required>
+        <input type="text" name="lastName" placeholder="Last Name" required>
+        <input type="tel" name="contactNumber" placeholder="Contact Number">
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+    <!-- Include the footer -->
+    <%- include('partials/footer') %>
+</body>
+</html>
