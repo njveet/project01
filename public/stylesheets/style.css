@@ -17,36 +17,71 @@ title {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 40px;
   font-weight: bold;
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 34px;
   font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 p {
-  font-size: 18px;
+  font-size: 20px;
+  text-align: justify;
+  margin-bottom: 20px;
 }
 
 ul {
   list-style: none;
   padding: 0;
+  text-align: justify;
+  margin-bottom: 20px;
 }
 
 ul li {
-  font-size: 16px;
-  margin-bottom: 10px;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+nav {
+  text-align: center;
+  margin-top: 15px;
+}
+
+nav {
+  text-align: center;
+  margin-top: 15px; /* Adjust the top margin for the navigation bar */
+}
+
+nav a {
+  display: inline-block;
+  margin: 10px 15px; /* Add space between navigation bar buttons */
+  padding: 10px 15px;
+  background-color: #2980b9;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+
+nav a:hover {
+  background-color: #3498db;
 }
 
 a {
-  color: #2980b9;
+  color: #f8f8f8;
   text-decoration: none;
 }
 
 a:hover {
-  color: #4692c5;
+  color: #2980b9; /* Keep the same color on hover */
 }
 
 .banner img {
@@ -101,7 +136,7 @@ nav a:hover {
 
 .welcome-container {
   position: absolute;
-  top: 75%;
+  top: 65%;
   left: 50%;
   transform: translate(-48%, -50%);
   background-color: rgba(0, 0, 0, 0.7);
