@@ -48,6 +48,10 @@ ul li {
   margin-bottom: 15px;
 }
 
+ul li a:hover {
+  color: rgba(0, 0, 0, 0.864); 
+}
+
 a {
   color: #2980b9;
   text-decoration: none;
