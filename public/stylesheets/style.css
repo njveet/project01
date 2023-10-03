@@ -1,3 +1,5 @@
+/* style.css */
+
 body {
   width: 100%;
   margin: 0;
@@ -6,6 +8,45 @@ body {
   background-size: cover;
   background-position: center;
   padding-bottom: 60px;
+  font-family: 'Sans Serif', sans-serif;
+}
+
+title {
+  font-family: 'Sans Serif', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4692c5;
 }
 
 .banner img {
@@ -37,29 +78,26 @@ nav a:hover {
   height: 20px;
 }
 
-/* Add this style to create a vignette effect on the image */
 .image-container {
   position: relative;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 75vh; /* Set the height of the image container, adjust as needed */
+  height: 75vh;
 }
 
-/* Style for the image */
 .image-container img.profile-card {
   width: 30%;
-  height: auto; /* Set height to auto to maintain aspect ratio */
+  height: auto;
   object-fit: cover;
-  filter: grayscale(50%); /* Apply grayscale effect */
-  opacity: 0.9; /* Adjust the opacity as needed */
+  filter: grayscale(50%);
+  opacity: 0.9;
   transition: 0.5s ease-in-out;
-  border: none; /* Remove border */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margin */
+  border: none;
+  padding: 0;
+  margin: 0;
 }
-
 
 .welcome-container {
   position: absolute;
@@ -109,7 +147,7 @@ nav a:hover {
 .logo-container {
   position: fixed;
   bottom: 10px;
-  right: 23px;
+  right: 25px;
   text-align: right;
   z-index: 2;
 }
