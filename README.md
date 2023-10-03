@@ -35,5 +35,5 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-- Email: your.email@example.com
-- GitHub: [Your GitHub Profile](https://github.com/yourusername)
+- Email: dbhinder@my.centennialcollege.ca
+- GitHub: https://github.com/njveet
