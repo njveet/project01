@@ -89,7 +89,7 @@ nav a:hover {
 
 .welcome-container {
   position: absolute;
-  top: 65%;
+  top: 75%;
   left: 50%;
   transform: translate(-48%, -50%);
   background-color: rgba(0, 0, 0, 0.7);
