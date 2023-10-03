@@ -36,29 +36,6 @@ p {
   margin-bottom: 20px;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-  text-align: justify;
-  margin-bottom: 20px;
-}
-
-ul li {
-  font-size: 18px;
-  margin-bottom: 15px;
-}
-
-ul li a:hover {
-  color: rgba(0, 0, 0, 0.864); 
-}
-
-a {
-  color: #2980b9;
-  text-decoration: none;
-}
-
-
-
 
 .banner img {
   width: 100%;
