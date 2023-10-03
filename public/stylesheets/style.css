@@ -48,41 +48,15 @@ ul li {
   margin-bottom: 15px;
 }
 
-nav {
-  text-align: center;
-  margin-top: 15px;
-}
-
-nav {
-  text-align: center;
-  margin-top: 15px; /* Adjust the top margin for the navigation bar */
-}
-
-nav a {
-  display: inline-block;
-  margin: 10px 15px; /* Add space between navigation bar buttons */
-  padding: 10px 15px;
-  background-color: #2980b9;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-
-nav a:hover {
-  background-color: #3498db;
-}
-
 a {
-  color: #f8f8f8;
+  color: #2980b9;
   text-decoration: none;
 }
 
 a:hover {
-  color: #2980b9; /* Keep the same color on hover */
+  color: #4692c5;
 }
+
 
 .banner img {
   width: 100%;
